@@ -31,8 +31,6 @@ int main()
                 s=e;        
             e=x;
         }
-        
-        
         --y;   
     }
     printf("%d", s);

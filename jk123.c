@@ -20,12 +20,12 @@ int main()
                     h = h*c ;
                     --c;
                 }
-            ff= ff + h;
+            ff = ff + h;
             y= y/10;
         }
-        if (ff=x)
+        if (ff==x)
         {
-            printf("%d  ", x);
+            printf("%d  ", ff);
         }   
         ++x;
     }

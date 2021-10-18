@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int c=1,x,y=0,z=1;
+    int c=1,x,y=0,z=1,r=0;
     scanf("%d", &x);
     
     while(c<=x)
@@ -11,15 +11,15 @@ int main()
             printf(" ");
             ++y;
         }
-        while(z<=c)
+        while(z<=(c+r))
         {
-            printf("*");
+            printf("%d",z);
             ++z;
         }
         printf("\n");
         y=c;
         z=1;
+        ++r;
         ++c;
     }
-    
 }

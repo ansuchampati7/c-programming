@@ -2,6 +2,7 @@
     "files.associations": {
         "BJBH.C": "cpp",
         "AS.C": "cpp",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "SDN.C": "cpp"
     }
 }

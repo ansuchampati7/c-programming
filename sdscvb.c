@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int arr[13]={1,1,3,3,4,2,11,1,3,7,2,4},i,j,k,p;
-    for ( i = 0 ; i < 12 ; i++)
+    int arr[8]={1,2,3,3,1,4,1,2},i,j=0,p;
+    for ( i = 0 ; i < 8 ; i++)
     {
-        for ( j = i+1 ; j < 12 ; j++)
+        for ( j = i+1 ; j < 8 ; j++)
         {
             if (arr[i] == arr[j] )
             {
@@ -12,7 +12,7 @@ int main()
             }    
         }
     }
-    for ( p = 0; p < 7; p++)
+    for ( p = 0; p < 4; p++)
     {
         printf("%d", arr[p]);
     }

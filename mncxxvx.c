@@ -10,9 +10,7 @@ int main()
             printf("Enter value for ar[%d][%d]:", i, j);
             scanf("%d", &ar[i][j]);
         }
-        
     }
-
     for ( i = 0; i < 3; i++)
     {   
         for ( j = 0; j < 3; j++)

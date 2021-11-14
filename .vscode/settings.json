@@ -3,6 +3,7 @@
         "BJBH.C": "cpp",
         "AS.C": "cpp",
         "stdio.h": "c",
-        "SDN.C": "cpp"
+        "SDN.C": "cpp",
+        "NJB.C": "cpp"
     }
 }

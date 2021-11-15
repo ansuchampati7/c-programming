@@ -1,1 +1,1 @@
-printf("%d ", *ptr );
+printf("the sum is %d \t ", z);
